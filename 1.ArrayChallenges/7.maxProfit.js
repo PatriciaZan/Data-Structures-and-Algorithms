@@ -43,7 +43,7 @@ const maxProfit = (prices) => {
         for(let i = 1; i < prices.length; i++){      
             const currentPrice = prices[i];
 
-            // update minimum price if the lower price is found
+            // Update minimum price if the lower price is found
             minPrice = Math.min(minPrice, currentPrice);
             //console.log(minPrice);
 

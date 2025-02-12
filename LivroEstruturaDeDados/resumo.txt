@@ -1,0 +1,47 @@
+# PILHAS LIFO
+
+- Elementos dispostios um em cima do outro.
+
+_ Operações que podem ser utilizadas:
+    Push  -> Empilha
+    Size  -> Retorna Tamanho
+    Top   -> Retorna o Topo
+    Pop   -> Desempilha Elemento
+    Empty -> Verifica se está vazia
+
+
+## Notações infixadas, prefixadas e pós-fixadas
+    - Infixada: 1+2 , (1+2)*(3-4)
+    - Prefixada: +12 , *+12-34
+    - Pós-fixada: 12+ , 12+34-*
+
+# FILA FIFO
+- Elementos add em seu final e retirados em seu início.
+
+_ Operações que podem ser utilizadas:
+    ENQUEUE -> Enfileirar o elemento
+    SIZE    -> Retornar o tamanho
+    HEAD    -> Retornar a cabeça
+    DEQUEUE -> Desenfileirar o elemento
+    EMPTY   -> Verificar se a fila está vazia
+
+_ Tipos de Filas
+    - Clássica 
+    - Circular
+    - Prioridade
+
+# LISTA
+
+_ Operações
+    ADD -> adiciona um novo elemento, sempre no começo ou no fim da lista
+    EMPTY -> verifica se a lista está vazia
+    ADD com posição -> adiciona um novo elemento em uma posição específica
+    GET -> obtém o elemento de uma posição específica
+    SET -> modifica um elemento de uma posição específica
+    DELETE -> exclui um elemento de uma posição específica;
+    SIZE -> obtém o tamanho atual da lista
+
+_ Tipos de Listas
+    - Sisplesmente Encadeada
+    - Duplamente Encadeada (+ performance)
+    - Circular
